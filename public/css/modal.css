@@ -1,0 +1,43 @@
+.show-cart li {
+  display: flex;
+}
+.add-to-cart {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.gb {
+    background-color: #007bff;
+    padding: 3px solid whitesmoke;
+    position: relative;
+    height: 32px;
+    right: -10px;
+    top: -25px;
+}
+.gg {
+    background-color: #007bff;
+    padding: 3px solid whitesmoke;
+    position: relative;
+    height: 33px;
+    left: 201px;
+    top: -25px;
+    color: #007bff;
+}
+.item-count {
+    top: -58px;
+    left: 37px;
+    width: 100%;
+}
+.bg-secondary {
+    width: 60px;
+    color: white;
+    padding: 4px;
+    text-align: center;
+    border-radius: 3px;
+}
+.mag {
+    width: 80px;
+    padding: 4px;
+    text-align: center;
+    border-radius: 3px;
+}

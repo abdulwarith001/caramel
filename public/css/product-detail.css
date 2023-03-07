@@ -1,0 +1,115 @@
+body {
+    background-color: whitesmoke;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: 100%;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/opensans/v34/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4taVIGxA.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* product image for desktop and mobile start*/
+.desk-img {
+  display: block;
+}
+.mobile-img {
+  display: none;
+}
+.tg {
+    background-color: white;
+    /* border: 11px solid whitesmoke; */
+}
+.tj {
+    /* background-color: whitesmoke; */
+}
+.hr {
+    background-color: rgb(134, 130, 130);
+}
+
+@media only screen and (max-width: 700px) {
+    .desk-img {
+    display: none !important;
+  }
+  .mobile-img {
+    display: block;
+    width: 360px;
+  }
+  .det {
+    width: 50%;
+  }
+}
+/* product image for desktop and mobile end */
+
+/* star rating starts */
+.fa.checked {
+  color: orange;
+}
+.fa {
+    color: black;
+}
+/* star rating ends */
+
+/* increment button start */
+.input-group {
+    width: 200px;
+    position: relative;
+    left: -10px;
+    top: 20px;
+}
+.btn-number {
+    top: -30px;
+}
+.input-number {
+    top: -30px;
+}
+.rk {
+    top: -20px;
+    position: relative;
+    left: -10px;
+}
+#ic {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.ont {
+    background-color: #33b27b;
+    text-align: center;
+    cursor: pointer;
+    width: 26%;
+    font-size: 18px;
+    text-decoration: none; 
+    position: relative;
+    left: -1px;
+    border-color: transparent;
+    border-radius: 5px;
+    
+}
+
+@media only screen and (max-width: 700px) {
+    .input-group {
+        width: 150px;
+        position: relative;
+        left: -5px;
+    }
+    .btn-number {
+        top: -30px;
+    }
+    .ton {
+        border: none;
+        outline: 0;
+        padding: 12px;
+        color: white;
+        background-color: #33b27b;
+        text-align: center;
+        cursor: pointer;
+        width: 40%;
+        height: 50px;
+        font-size: 18px;
+        text-decoration: none;
+        position: relative;
+        left: 1px;
+    }
+    
+}
+/* increment button end */
